@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<form method="GET" action="/">
+    <input type="text" id="html"></input>
+    <button type="submit">Enviar</button>
+</form>
+
+{% if html %}
+    <h1>Hello {{ html }} </h1>
+{% else %}
+    <h1>Variable is clean </h1>
+{% endif %}

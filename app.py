@@ -40,7 +40,7 @@ def login():
         return '''
                 <html>
                     <body>
-                        <form method="post">
+                        <form method="get">
                             <p><input type=text name=username>
                             <p><input type=submit value=Login>
                         </form>
